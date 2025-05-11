@@ -27,9 +27,9 @@ Disallow: /src/
 Disallow: /home
 Disallow: /toilet/
 Disallow: /toilet
-Disallow: /hegirarfgd/htdocs/tt3
-Disallow: /hegirarfgd/htdocs/goog
-Disallow: /hegirarfgd/htdocs/postest
-Disallow: /hegirarfgd/htdocs/bor
-Disallow: /hegirarfgd/htdocs/mschangingtext
-Disallow: /hegirarfgd/htdocs/msglider
+Disallow: /r2/tt3
+Disallow: /r2/goog
+Disallow: /r2/postest
+Disallow: /r2/bor
+Disallow: /r2/mschangingtext
+Disallow: /r2/msglider
