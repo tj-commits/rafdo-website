@@ -1,6 +1,6 @@
-import Router from "next/router";
-
 export default function Home() {
-  Router.replace('/index.html')
+  return <script>
+    location.replace(&apos;/index.html&apos;)
+  </script>
 }
 
