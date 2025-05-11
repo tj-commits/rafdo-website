@@ -1,6 +1,6 @@
 export default function Home() {
   return <script>
-    location.replace(&apos;/index.html&apos;)
+    location.replace(&apos;/home.html&apos;)
   </script>
 }
 

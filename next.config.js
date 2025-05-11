@@ -14,13 +14,4 @@ module.exports = {
 
 
 module.exports = {
-  async redirects() {
-    return [
-      {
-        source: '/:path*\\.html',
-        destination: '/:path*',
-        permanent: true,
-      },
-    ];
-  },
 };
