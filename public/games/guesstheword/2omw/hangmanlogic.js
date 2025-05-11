@@ -231,7 +231,7 @@ function enterPressed() {
         beforeUpdateStatusMessage = false
         game.renderFn()
         console.log('YOU PRESSED ENTER!!! OMG SERET IMQEUST')
-        location.replace('https://imagequest.rafdo.rf.gd/youpressedenter/')
+        location.replace('https://imagequest.vercel.app/youpressedenter/')
     } else {
         
     }
