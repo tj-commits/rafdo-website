@@ -1,4 +1,4 @@
 if (location.pathname === '/') {
 
-location.replace('/index.html')
+location.replace('/home.html')
 }

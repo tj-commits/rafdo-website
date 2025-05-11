@@ -11,3 +11,16 @@ module.exports = {
     domains: ["i.imgur.com", "www.google.com"],
   },
 };
+
+
+module.exports = {
+  async redirects() {
+    return [
+      {
+        source: '/:path*\\.html',
+        destination: '/:path*',
+        permanent: true,
+      },
+    ];
+  },
+};
