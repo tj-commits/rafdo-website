@@ -1,7 +1,7 @@
 if (location.pathname === '/') {
 
 location.replace('/home.html')
-} else if (!location.pathname.endsWith('.html')) {
+} else if (!location.pathname.endsWith('.html') && !location.pathname.includes('.')) {
   const xhr = new XMLHttpRequest()
   xhr.onload = function () {
     if (xhr.status !== 404) {
