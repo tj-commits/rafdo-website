@@ -48,7 +48,7 @@ function changeUrlWithoutRefresh(newUrl) {
 if (location.pathname.endsWith('.html')) {
 
   changeUrlWithoutRefresh(location.pathname.split('.html')[0] + (location.search) + (location.href.split('#')[1] ? ("#" + location.href.split('#')[1]) : ''))
-}
+}/*
 if (location.href.endsWith('index')) {
   changeUrlWithoutRefresh(location.href.split('index')[0])
-}
+}*/ // remove this cuz it broke some pages
