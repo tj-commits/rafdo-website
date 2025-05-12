@@ -52,3 +52,15 @@ if (location.pathname.endsWith('.html')) {
 if (location.href.endsWith('index')) {
   changeUrlWithoutRefresh(location.href.split('index')[0])
 }*/ // remove this cuz it broke some pages
+ const xhr = new XMLHttpRequest()
+  xhr.onload = function () {
+    if (xhr.status !== 404) {
+
+        location.replace(location.pathname + '/index.html' + location.search)
+    }
+  }
+
+
+  const loation = location
+  xhr.open('GET', location.href + '/index.html')
+  xhr.send()
