@@ -12,7 +12,7 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
           <Analytics />
-        </body>
+       </body>
       </Html>
     );
   }
