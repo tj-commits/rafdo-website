@@ -126,9 +126,10 @@ tr:nth-child(even) {
 
 .btn {
     text-decoration: none;
-    background: white;
-    color: #333;
+    background: red;
+    color: white;
     border-radius: 10px;
     padding: 10px;
-    
+    cursor:pointer;
+    font-size: x-large
 }
