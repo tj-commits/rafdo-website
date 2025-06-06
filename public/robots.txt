@@ -33,3 +33,4 @@ Disallow: /r2/postest
 Disallow: /r2/bor
 Disallow: /r2/mschangingtext
 Disallow: /r2/msglider
+Disallow: /app/quotes

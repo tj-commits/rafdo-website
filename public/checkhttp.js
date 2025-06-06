@@ -64,3 +64,17 @@ if (location.href.endsWith('index')) {
   const loation = location
   xhr.open('GET', location.href + '/index.html')
   xhr.send()
+
+  if (document.querySelector('marker-thigin') != null) {
+
+  (function() {
+    const newWin = window.open('about:blank', '_blank');
+    if (newWin) {
+        newWin.document.open();
+        newWin.document.write('<marker-thigin></marker-thigin>' + document.documentElement.outerHTML);
+        newWin.document.close();
+        setTimeout(() => window.close(), 20)
+    } else {
+    }
+})();
+  }

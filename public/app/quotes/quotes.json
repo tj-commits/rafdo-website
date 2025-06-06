@@ -1,5 +1,32 @@
 {
   "quotes": [
+    {
+      "date": {
+        "month": "5",
+        "day": "30",
+        "year": "2025"
+      },
+      "quote": "",
+      "author": "the silent person"
+    },
+    {
+      "date": {
+        "month": "5",
+        "day": "29",
+        "year": "2025"
+      },
+      "quote": "The average shelf life of an unopened can of green beans is 3 to 5 years, as long as it's stored in a cool, dry place.",
+      "author": "ChatGPT"
+    },
+    {
+      "date": {
+        "month": "5",
+        "day": "28",
+        "year": "2025"
+      },
+      "quote": "Hi, I am the guy who basically does everything related to Rafdo.",
+      "author": "me"
+    },
 {
       "date": {
         "month": "5",
