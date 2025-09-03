@@ -655,17 +655,5 @@ function closeNav() {
 </script>
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "ffe5cfc1778e4fd0b5546e52ee785111"}'></script><!-- End Cloudflare Web Analytics --></body>
 <script>
-
-    if (localStorage.getItem('migrated') == null) {
-        // MIGRATION PROCESS
-        const keys = Object.keys(localStorage)
-        const values = Object.values(localStorage)
-        let ls = []
-        let i =0
-        localStorage.setItem('migrated', 'mhm')
-        location.replace('https://rafdo.rf.gd/r2/notepad/migrate.html' + '?localstorage=' + encodeURI(JSON.stringify(localStorage)))
-    } else {
-        location.replace('https://rafdo.rf.gd/r2/notepad/')
-    }
 </script>
 </html>
