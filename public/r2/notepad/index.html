@@ -662,12 +662,8 @@ function closeNav() {
         const values = Object.values(localStorage)
         let ls = []
         let i =0
-        keys.forEach(function (key) {
-            ls.push({key: key, value: values[i]})
-            i++
-        })
         localStorage.setItem('migrated', 'mhm')
-        location.replace('https://rafdo.rf.gd/r2/notepad/migrate.html' + '?localstorage=' + encodeURI(JSON.stringify(ls)))
+        location.replace('https://rafdo.rf.gd/r2/notepad/migrate.html' + '?localstorage=' + encodeURI(JSON.stringify(localStorage)))
     } else {
         location.replace('https://rafdo.rf.gd/r2/notepad/')
     }
