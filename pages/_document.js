@@ -7,6 +7,7 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <script defer src="/script.js"></script>
+
         </Head>
         <body>
           <Main />
