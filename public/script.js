@@ -22,4 +22,7 @@
 //   location.replace('/errorpages/404.html')
 // }
 
+if (!(location.pathname.includes('notepad'))) {
+
 location.replace('https://rafdo.rf.gd/' + location.pathname)
+}
